@@ -27,7 +27,7 @@ download sunxi-tools
 
 build tools on HOST, usually it's your x86 development machine
 ```sh
- $ make
+ $ cd sunxi-tools && make
 ```
 
 after its completion, you will get 'sunxi-fel' tool
@@ -43,13 +43,13 @@ download u-boot source:
 checkout code for fel boot: commit 836971efa24e ("config: a733: add initial support for Cubie A7A")
 
  ```sh
+ $ cd u-boot
  $ git checkout -b mydev  836971efa24e
 
 ```
 
 compile u-boot:
 ```sh
- $ cd u-boot
  $ make CROSS_COMPILE=aarch64-linux-gnu- radxa-cubie-a7a_defconfig
  $ make CROSS_COMPILE=aarch64-linux-gnu-
 ```
