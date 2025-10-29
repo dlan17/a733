@@ -56,8 +56,21 @@ You can then flash it to the SPI flash.
 
 ### Mainline u-boot and atf
 
-1. mainline u-boot, branch: allwinner/A733
-2. mainline atf, branch: A733
+1. mainline u-boot
+
+download u-boot source:
+```sh
+ $ git clone -b allwinner/A733 https://github.com/dlan17/u-boot
+
+```
+
+2. TF-A port for A733
+
+download TF-A source:
+```sh
+ $ git clone -b A733 https://github.com/dlan17/trusted-firmware-a
+
+```
 
 Please refer to boot-fel.md for how to build them. After compilation,
 
