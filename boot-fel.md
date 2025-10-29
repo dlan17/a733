@@ -6,7 +6,8 @@ Below describe how to build and run mainline u-boot with FEL tools.
 
 download TF-A source:
 ```sh
- $ git clone -b A733 https://github.com/dlan17/trust-firmware-a
+ $ git clone -b A733 https://github.com/dlan17/trusted-firmware-a
+
 ```
 
 compile the code
