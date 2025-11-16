@@ -36,15 +36,7 @@ after its completion, you will get 'sunxi-fel' tool
 
 download u-boot source:
 ```sh
- $ git clone https://github.com/dlan17/u-boot
-
-```
-
-checkout code for fel boot: commit 836971efa24e ("config: a733: add initial support for Cubie A7A")
-
- ```sh
- $ cd u-boot
- $ git checkout -b mydev  836971efa24e
+ $ git clone -b allwinner/A733/next https://github.com/dlan17/u-boot
 
 ```
 

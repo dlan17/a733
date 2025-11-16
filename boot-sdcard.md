@@ -60,7 +60,7 @@ You can then flash it to the SPI flash.
 
 download u-boot source:
 ```sh
- $ git clone -b allwinner/A733 https://github.com/dlan17/u-boot
+ $ git clone -b allwinner/A733/boot https://github.com/dlan17/u-boot
 
 ```
 
